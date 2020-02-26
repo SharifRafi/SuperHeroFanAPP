@@ -90,6 +90,9 @@ extension HomeTableViewCell: UICollectionViewDelegate, UICollectionViewDataSourc
         
         cell.homeCollectionImageView.image = imageArray[indexPath.row]
         
+        cell.homeCollectionImageView.layer.cornerRadius = 50
+        
+        
         return cell
     }
 }

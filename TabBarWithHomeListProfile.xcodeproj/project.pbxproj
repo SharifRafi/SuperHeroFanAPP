@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01875AD52403C8D000883B79 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01875AD32403C8D000883B79 /* ListTableViewCell.swift */; };
-		01875AD62403C8D000883B79 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01875AD42403C8D000883B79 /* ListTableViewCell.xib */; };
+		0191933A2406C95500E5FE6C /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 019193392406C95500E5FE6C /* ListTableViewCell.xib */; };
+		0191933D2406CA8300E5FE6C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191933B2406CA8300E5FE6C /* ListViewController.swift */; };
+		0191933E2406CA8300E5FE6C /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191933C2406CA8300E5FE6C /* ListTableViewCell.swift */; };
 		01AA7D5A24030BDC00B135AE /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA7D5724030BDC00B135AE /* HomeCollectionViewCell.swift */; };
 		01AA7D5B24030BDC00B135AE /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA7D5824030BDC00B135AE /* HomeTableViewCell.swift */; };
 		01AA7D5C24030BDC00B135AE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA7D5924030BDC00B135AE /* HomeViewController.swift */; };
@@ -19,12 +20,12 @@
 		84F67D642402528200014808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F67D632402528200014808 /* Assets.xcassets */; };
 		84F67D672402528200014808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F67D652402528200014808 /* LaunchScreen.storyboard */; };
 		84F67D7A2402603400014808 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F67D792402603400014808 /* ProfileViewController.swift */; };
-		84F67D7C2402609B00014808 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F67D7B2402609B00014808 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01875AD32403C8D000883B79 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
-		01875AD42403C8D000883B79 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		019193392406C95500E5FE6C /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		0191933B2406CA8300E5FE6C /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		0191933C2406CA8300E5FE6C /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		01AA7D5724030BDC00B135AE /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		01AA7D5824030BDC00B135AE /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		01AA7D5924030BDC00B135AE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		84F67D662402528200014808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F67D682402528200014808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F67D792402603400014808 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		84F67D7B2402609B00014808 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +51,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01875AD72403C8F200883B79 /* Nib */ = {
+		019193382406C95500E5FE6C /* Nib */ = {
 			isa = PBXGroup;
 			children = (
-				01875AD42403C8D000883B79 /* ListTableViewCell.xib */,
+				019193392406C95500E5FE6C /* ListTableViewCell.xib */,
 			);
 			path = Nib;
 			sourceTree = "<group>";
@@ -129,9 +129,9 @@
 		84F67D72240254F500014808 /* List */ = {
 			isa = PBXGroup;
 			children = (
-				01875AD72403C8F200883B79 /* Nib */,
-				84F67D7B2402609B00014808 /* ListViewController.swift */,
-				01875AD32403C8D000883B79 /* ListTableViewCell.swift */,
+				0191933C2406CA8300E5FE6C /* ListTableViewCell.swift */,
+				0191933B2406CA8300E5FE6C /* ListViewController.swift */,
+				019193382406C95500E5FE6C /* Nib */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -211,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AA7D5F24030BFD00B135AE /* Main.storyboard in Resources */,
-				01875AD62403C8D000883B79 /* ListTableViewCell.xib in Resources */,
+				0191933A2406C95500E5FE6C /* ListTableViewCell.xib in Resources */,
 				84F67D672402528200014808 /* LaunchScreen.storyboard in Resources */,
 				84F67D642402528200014808 /* Assets.xcassets in Resources */,
 			);
@@ -229,9 +229,9 @@
 				84F67D5B2402526100014808 /* AppDelegate.swift in Sources */,
 				01AA7D5B24030BDC00B135AE /* HomeTableViewCell.swift in Sources */,
 				01AA7D5A24030BDC00B135AE /* HomeCollectionViewCell.swift in Sources */,
-				01875AD52403C8D000883B79 /* ListTableViewCell.swift in Sources */,
+				0191933E2406CA8300E5FE6C /* ListTableViewCell.swift in Sources */,
 				84F67D5D2402526100014808 /* SceneDelegate.swift in Sources */,
-				84F67D7C2402609B00014808 /* ListViewController.swift in Sources */,
+				0191933D2406CA8300E5FE6C /* ListViewController.swift in Sources */,
 				01AA7D5C24030BDC00B135AE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
